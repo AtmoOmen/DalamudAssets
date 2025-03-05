@@ -12,16 +12,13 @@ def calculate_hash(file_path):
 
 def get_repo_url(repo_owner, repo_name, branch):
     """生成 GitHub raw 内容 URL"""
-    return f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}"
+    return f"https://gh.atmoomen.top/https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}"
 
 def update_assets():
     """更新 asset.json 文件"""
     # 读取现有的 asset.json
     with codecs.open("asset.json", "r", encoding="utf-8") as f:
         asset_json = json.load(f)
-    
-    # 增加版本号
-    asset_json["Version"] = asset_json.get("Version", 0) + 1
     
     # 获取当前仓库信息
     with open(".git/config", "r", encoding="utf-8") as f:
