@@ -12,7 +12,7 @@
     "description": "LoadingDialog.UpdateMainInstructionText"
   },
   "LoadingDialogContentInfo": {
-    "message": "你通过Dalamud安装的有些插件加载时间太长了。\n这似乎也正常，等一会吧。",
+    "message": "部分插件加载时间过长, 请耐心等待",
     "description": "LoadingDialog.UpdateContentText"
   },
   "LoadingDialogContentCurrentPlugin": {
@@ -20,7 +20,7 @@
     "description": "LoadingDialog.UpdateContentText"
   },
   "LoadingDialogContentTakingTooLong": {
-    "message": "已经有一会儿了。请在我们的QQ频道报告这种情况。",
+    "message": "加载时间过长, 请自行检查或反馈",
     "description": "LoadingDialog.UpdateContentText"
   },
   "LoadingDialogHide": {
@@ -636,27 +636,27 @@
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarningReadThis": {
-    "message": "【先读这个！！】",
+    "message": "[重要提示]",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning": {
-    "message": "我们对第三方插件和仓库所造成的后果不承担任何责任，包括并不限于游戏崩溃，隐私泄露，盗号等。\n从不受信任的来源安装第三方插件时请多加注意。",
+    "message": "来自第三方仓库的插件并未经过 Dalamud 官方人员的审核, 可能包含恶意的数据收集和破坏性的程序代码",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning5": {
-    "message": "如果有人告诉你在这里复制/粘贴某些东西，你很正在被欺骗或被利用！！！",
+    "message": "和其他任何软件一样, 插件可以完全获取和操作你的设备上的任何内容",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning2": {
-    "message": "插件像任何其他程序一样，可以完全获取和操控您的电脑上的任何内容，这可能造成损坏或崩溃。",
+    "message": "不安全的第三方插件可能造成盗号、个人隐私泄露以及更一步的财产损失",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning4": {
-    "message": "他们可以删除您的角色，卖掉你的武器和房屋，窃取您的游戏或QQ帐户。",
+    "message": "请确保你能确定特定第三方仓库与插件的安全性后, 再考虑在下方添加与安装",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning3": {
-    "message": "请确保您只安装您绝对信任的开发者的插件。",
+    "message": "如果有人让你将不明来源的地址填入并安装, 你可能正在遭遇欺诈事件",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarningPleaseWait": {
@@ -1896,11 +1896,11 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
-    "message": "Dalamud插件",
+    "message": "Dalamud 插件",
     "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
-    "message": "Dalamud设置",
+    "message": "Dalamud 设置",
     "description": "DalamudAtkTweaks..ctor"
   }
 }
